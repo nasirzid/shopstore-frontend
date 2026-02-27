@@ -46,7 +46,7 @@ Each task builds on previous work, ensuring no orphaned code. Testing tasks are 
     - _Requirements: 1.4, 2.5, 3.1, 3.2, 9.1, 9.2, 9.3_
     - _Best Practice: Enums for constants, type hints for all parameters and returns_
   
-  - [ ]* 1.2 Write property test for password hashing round-trip
+  - [-] 1.2 Write property test for password hashing round-trip
     - **Property 6: Password verification round-trip**
     - **Validates: Requirements 2.5, 9.3**
     - Generate random passwords, hash them, verify original matches and wrong passwords don't match
