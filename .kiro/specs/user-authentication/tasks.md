@@ -46,17 +46,17 @@ Each task builds on previous work, ensuring no orphaned code. Testing tasks are 
     - _Requirements: 1.4, 2.5, 3.1, 3.2, 9.1, 9.2, 9.3_
     - _Best Practice: Enums for constants, type hints for all parameters and returns_
   
-  - [-] 1.2 Write property test for password hashing round-trip
+  - [ ] 1.2 Write property test for password hashing round-trip
     - **Property 6: Password verification round-trip**
     - **Validates: Requirements 2.5, 9.3**
     - Generate random passwords, hash them, verify original matches and wrong passwords don't match
   
-  - [ ]* 1.3 Write property test for JWT token round-trip
+  - [x] 1.3 Write property test for JWT token round-trip
     - **Property 9: Token validation round-trip**
     - **Validates: Requirements 3.2, 3.5**
     - Generate random user IDs, create tokens, verify decoded user ID matches original
   
-  - [ ]* 1.4 Write unit tests for token expiration
+  - [ ] 1.4 Write unit tests for token expiration
     - Test expired tokens are rejected
     - Test invalid signature tokens are rejected
     - _Requirements: 3.3, 3.4_
